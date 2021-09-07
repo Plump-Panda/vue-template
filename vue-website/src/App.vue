@@ -1,5 +1,4 @@
 <template>
-  <img alt="Vue logo" src="./assets/vue-icon.png">
   <MainPage msg="Welcome to Your Vue.js App"/>
 </template>
 
