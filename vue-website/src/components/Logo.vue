@@ -1,15 +1,12 @@
 <template>
-    <div>
-        <img :src="require(`@/assets/${image}`)">
-        <section>
-          {{description}}
-        </section>
+    <div class="image-container">
+        <img class="image" :src="require(`@/assets/${image}`)">
     </div>
 </template>
 
 <script>
 export default {
-  name: 'JobCard',
+  name: 'Logo',
   props: {
     description: String,
     image: String,
@@ -18,5 +15,8 @@ export default {
 </script>
 
 <style scoped>
+  .image {
+    width: 5em;
+  }
 </style>
 
