@@ -2,6 +2,7 @@
 
 ## Project setup
 ```
+cd vue-website
 npm install
 ```
 
